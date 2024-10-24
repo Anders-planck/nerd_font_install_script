@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Change permission to execute update_font_data.sh
+chmod +x ./update_font_data.sh
+
+# Update the font.json file before executing update_font_data.sh
+./update_font_data.sh
+
 # Verifica se jq è installato
 if ! command -v jq &> /dev/null; then
   echo "jq non è installato. Installazione in corso..."
