@@ -1,4 +1,3 @@
-```markdown
 # Font Installer Script
 
 This repository contains a script `main.sh` that reads a `font.json` file and installs each font listed in the file using Homebrew.
@@ -76,4 +75,3 @@ Here is an example of what the `font.json` file should look like:
 - The script assumes that the fonts follow the naming convention `font-<caskName>-nerd-font` in Homebrew.
 
 Feel free to modify the `font.json` file to include the fonts you want to install.
-```
